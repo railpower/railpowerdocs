@@ -19,6 +19,9 @@ Projenin danışman öğretim üyesi:
 
 tarafından bitirme tezi olarak oluşturulmuştur.
 
++ **Dokümantasyon adresi: http://railpower.github.io**
++ **Proje ana sayfası: http://railpower.bitbucket.org**
+
 ### *Terimler:*
 
 | Terim | Açıklama |
