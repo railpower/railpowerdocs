@@ -5,7 +5,7 @@
         
         
         <meta charset="UTF-8">
-        <title>Araclar | Railpower Dokümantasyonu</title>
+        <title>Derleme | Railpower Dokümantasyonu</title>
 
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="robots" content="index, follow">
@@ -15,13 +15,13 @@
         <meta name="generator" content="www.gitbook.io">
 
         
-        <link rel="next" href="./Baglantilar.html" />
+        <link rel="next" href="./Yapilacaklar.html" />
         
         
-        <link rel="prev" href="./NumerikIntegrator.html" />
+        <link rel="prev" href="./Siniflar.html" />
         
 
-        <meta property="og:title" content="Araclar | Railpower Dokümantasyonu">
+        <meta property="og:title" content="Derleme | Railpower Dokümantasyonu">
         <meta property="og:site_name" content="Railpower Dokümantasyonu">
         <meta property="og:type" content="book">
         <meta property="og:locale" content="en_US">
@@ -46,7 +46,7 @@
 
 
         
-    <div class="book" data-github="railpowerdocs" data-level="1.2" data-basepath="." data-revision="1401540817090">
+    <div class="book" data-github="railpowerdocs" data-level="2.3" data-basepath="." data-revision="1401540817090">
     <div class="book-header">
     <!-- Actions Left -->
     <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
@@ -130,7 +130,7 @@
         
         
         <li>
-            <a href="https://github.com/vertexclique/railpowerdocs/edit/master/Araclar.md" target="blank" class="contribute-link">Edit and Contribute</a>
+            <a href="https://github.com/vertexclique/railpowerdocs/edit/master/Derleme.md" target="blank" class="contribute-link">Edit and Contribute</a>
         </li>
         
 
@@ -279,7 +279,7 @@
             <div class="page-wrapper" tabindex="-1">
                 <div class="book-progress">
     <div class="bar">
-        <div class="inner" style="width: 25%;min-width: 16.666666666666668%;"></div>
+        <div class="inner" style="width: 83.33333333333333%;min-width: 75%;"></div>
     </div>
     <div class="chapters">
     
@@ -291,19 +291,19 @@
     
         <a href="./Araclar.html" title="Araclar" class="chapter done " data-progress="1.2" style="left: 25%;"></a>
     
-        <a href="./Baglantilar.html" title="Baglantılar" class="chapter  " data-progress="1.3" style="left: 33.333333333333336%;"></a>
+        <a href="./Baglantilar.html" title="Baglantılar" class="chapter done " data-progress="1.3" style="left: 33.333333333333336%;"></a>
     
-        <a href="./SimulasyonBirimi.html" title="Simulasyon Birimi" class="chapter  " data-progress="1.4" style="left: 41.666666666666664%;"></a>
+        <a href="./SimulasyonBirimi.html" title="Simulasyon Birimi" class="chapter done " data-progress="1.4" style="left: 41.666666666666664%;"></a>
     
-        <a href="./Sonuclar.html" title="Sonuclar ve Test Paketleri" class="chapter  " data-progress="1.5" style="left: 50%;"></a>
+        <a href="./Sonuclar.html" title="Sonuclar ve Test Paketleri" class="chapter done " data-progress="1.5" style="left: 50%;"></a>
     
-        <a href="./Runtime.html" title="Runtime Birimi (API)" class="chapter  new-chapter" data-progress="2" style="left: 58.333333333333336%;"></a>
+        <a href="./Runtime.html" title="Runtime Birimi (API)" class="chapter done new-chapter" data-progress="2" style="left: 58.333333333333336%;"></a>
     
-        <a href="./APIFonksiyonlari.html" title="API Fonksiyonları" class="chapter  " data-progress="2.1" style="left: 66.66666666666667%;"></a>
+        <a href="./APIFonksiyonlari.html" title="API Fonksiyonları" class="chapter done " data-progress="2.1" style="left: 66.66666666666667%;"></a>
     
-        <a href="./Siniflar.html" title="Sınıflar" class="chapter  " data-progress="2.2" style="left: 75%;"></a>
+        <a href="./Siniflar.html" title="Sınıflar" class="chapter done " data-progress="2.2" style="left: 75%;"></a>
     
-        <a href="./Derleme.html" title="Derleme" class="chapter  " data-progress="2.3" style="left: 83.33333333333333%;"></a>
+        <a href="./Derleme.html" title="Derleme" class="chapter done " data-progress="2.3" style="left: 83.33333333333333%;"></a>
     
         <a href="./Yapilacaklar.html" title="Yapılacaklar" class="chapter  new-chapter" data-progress="3" style="left: 91.66666666666667%;"></a>
     
@@ -314,26 +314,20 @@
 
                 <div class="page-inner">
                 
-                    <section class="normal" id="section-gitbook_70">
+                    <section class="normal" id="section-gitbook_73">
                     
-                        <h1 id="ara-lar">Araçlar</h1>
-<p>Railpower şimdilik aşağıdaki tipleri desteklemektedir.</p>
-<ul>
-<li>Locomotive</li>
-<li>Car</li>
-<li>Freight Car</li>
-<li>Passenger Car</li>
-</ul>
-<p>Her bir aracın kendine özgü özellikleri(yük, yolcu ve diğer spesifik özellikler) ve bu özelliklerinin sisteme etkisi ilerleyen versiyonlarında olacaktır.</p>
-<p>Şu anda her sistemin kendine ait basit seviyede:</p>
-<ul>
-<li>kütle</li>
-<li>ivme</li>
-<li>hız</li>
-<li>pozisyon</li>
-</ul>
-<p>değerleri bulunmaktadır.</p>
-<p>Bir sonraki bölümde belirtilecek olan bağlantılar ile araç modellemeleri geçmiş araştırma konvansiyonları üzerine yapılmıştır. Sinamik sistemin modellenmesi ve çalışma biçimi zor bir konu olduğundan bu konu hakkındaki tüm implementasyon önceki araştırmalardan alınmıştır.<sup>5</sup></p>
+                        <h1 id="derleme">Derleme</h1>
+<h2 id="derleme-ortam-n-n-haz-rlanmas-">Derleme ortamının hazırlanması</h2>
+<h3 id="derleyicinin-y-klenmesi">Derleyicinin yüklenmesi</h3>
+<p>Derleme&#39;nin yapılabilmesi için <a href="http://gcc.gnu.org/projects/cxx0x.html" target="_blank">http://gcc.gnu.org/projects/cxx0x.html</a>
+adresinde belirtilen <code>Null pointer constant</code> ifadesinin en az derleyici tarafından sağlanması gerekmektedir.</p>
+<p>Bu yüzden GCC kullanılacaksa(ki proje derlenirken GCC kullanılmıştır)</p>
+<p>GCC binary&#39;sini <a href="http://www.cygwin.com/" target="_blank">http://www.cygwin.com/</a> üzerinden yükleyebilirsiniz.
+veya:
+<a href="http://libre.adacore.com/download/configurations" target="_blank">http://libre.adacore.com/download/configurations</a> adresinden <code>gnat-gpl-YYYY-x86-windows-bin.exe</code> paketini kurup sisteme kurulan GCC çalıştırabilirinin yolu <code>Ortam Değişkenleri</code>nden <code>PATH</code>e eklenmesi gerekmektedir.</p>
+<p><img src="images/gnat.png" alt="GNAT" title="GNAT"></p>
+<h3 id="ide-nin-y-klenmesi">IDE&#39;nin yüklenmesi</h3>
+<p>Halihazırda proje Qt Creator kullanılarak oluşturulmuştur.</p>
 
                     
                     </section>
@@ -343,10 +337,10 @@
         </div>
 
         
-        <a href="./NumerikIntegrator.html" class="navigation navigation-prev " aria-label="Previous page: Numerik Integrator"><i class="fa fa-angle-left"></i></a>
+        <a href="./Siniflar.html" class="navigation navigation-prev " aria-label="Previous page: Sınıflar"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="./Baglantilar.html" class="navigation navigation-next " aria-label="Next page: Baglantılar"><i class="fa fa-angle-right"></i></a>
+        <a href="./Yapilacaklar.html" class="navigation navigation-next " aria-label="Next page: Yapılacaklar"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>

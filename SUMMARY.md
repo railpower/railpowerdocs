@@ -9,7 +9,7 @@
 * [Runtime Birimi (API)](Runtime.md)
    * [API Fonksiyonları](APIFonksiyonlari.md)
    * [Sınıflar](Siniflar.md)
-   * [Derleme](/derleme.md)
+   * [Derleme](Derleme.md)
 * [Yapılacaklar](Yapilacaklar.md)
 * [Kaynakça](Kaynakca.md)
 

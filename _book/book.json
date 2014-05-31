@@ -1,5 +1,7 @@
 {
     "title": "Railpower Dokümantasyonu",
+    "github": "railpowerdocs",
+    "githubHost": "https://github.com/vertexclique/",
     "plugins": [
         "disqus"
     ],

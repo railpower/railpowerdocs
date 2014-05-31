@@ -2,10 +2,10 @@
 ## DEVELOPMENT OF DYNAMIC ENGINE AND GRAPHICAL USER INTERFACE SOFTWARE FOR RAILWAY SYSTEMS
 
 <a href="https://bitbucket.org/railpower/railpower/downloads/librailpower-v1.0.1.zip" download="librailpower-v1.0.1.zip" title="librailpower-v1.0.1.zip">
-    <img src="http://img.shields.io/badge/RUNTIME-VERSİYON-1.0.1-blue.svg" alt="Versiyon 1.0.1">
+    <img src="http://img.shields.io/badge/RUNTIME_VERSİYON-1.0.1-blue.svg" alt="Versiyon 1.0.1">
 </a>
 
-
+<img src="http://img.shields.io/badge/DOKÜMANTASYON_VERSİYON-0.2.0-red.svg" alt="Versiyon 0.2.0">
 
 **Railpower** projesi birincil kullanıcısı [TCDD](http://www.tcdd.gov.tr/) olacağı gözetilerek yapılmıştır.
 
