@@ -1,0 +1,14 @@
+{
+    "title": "Railpower Dokümantasyonu",
+    "plugins": [
+        "disqus"
+    ],
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "railpowerdokumantasyon"
+        },
+        "fontSettings": {
+            "family": "sans"
+        }
+    }
+}
