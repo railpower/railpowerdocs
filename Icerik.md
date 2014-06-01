@@ -17,4 +17,4 @@ yer almaktadır.
 ## Gereçler
 
 Proje genel olarak C++'ta kodlanmıştır.
-Çağrılar C çağrısı olup `__stdcall` konvansiyonunu kullanır. `C++11` standardını kullanır. `Boost` kütüphanesinin içine sonradan dahil edilen `ODEINT` integratörü sistemin numerik integratörü olarak görev yapmaktadır.
+Çağrılar C çağrısı olup `__cdecl` konvansiyonunu kullanır. `C++11` standardını kullanır. `Boost` kütüphanesinin içine sonradan dahil edilen `ODEINT` integratörü sistemin numerik integratörü olarak görev yapmaktadır.

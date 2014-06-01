@@ -88,7 +88,7 @@ Bir kodlama yapılanması olarak ebeveyn dosya diğer dosyalardaki yapıları ku
 
 Bu dosya dışarıya export edilecek fonksiyonların yazım noktasıdır. Bu kısımda olabildiğince kompakt bir yapı sergileyip kullanım sırasına göre yazmamız bizim açımızdan birbirine yakın export edilmiş fonksiyonların derleyici tarafından oluşturulmasını sağlayacaktır. Aynı zamanda bu bize hızlı bir sistem de sağlar.
 
-`railpower.h` içerisinde bu exportlar aşağıdaki örnek satırlar gibi sırasıyla yazılmalıdır. Bu genel konvansiyondur. Sistem esnektir, istenildiği gibi değişkiliğe gidilebilir.
+`railpower.h` içerisinde bu exportlar aşağıdaki örnek satırlar gibi sırasıyla yazılmalıdır. Bu genel konvansiyondur. Sistem esnektir, istenildiği gibi değişikliğe gidilebilir.
 
 ```cpp
 .
